@@ -2,33 +2,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
 
-html {
+html{
     font-family: 'Forum', serif;
-    font-size: 62, 5%;
+    font-size: 62.5%;
 }
 
-header {
+header{
     height: 11vh;
     border-bottom: 1px solid black;
 }
+
 .header-wrapper{
+    height: 100%;
     max-width: 120rem;
+    margin: auto;
+
     display: flex;
     justify-content: center;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    border-right:1px solid black ;
-    border-left: 1px solid black;
-    margin: auto;
+    align-items:center;
 }
-
 .logo{
     height: 100%;
-    font-size:4.5rem;
-    border: 1px solid black;
     flex-basis: 15%;
+    font-size: 4.5rem;
+    border: 1px solid black;
 }
+
 .header-wrapper nav{
     flex-basis: 65%;
 }
